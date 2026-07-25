@@ -1,69 +1,93 @@
-# 🌐 HTML Project
+# 🌐 HTML Projects
 
-## 📖 About
-Welcome to my HTML Project repository!
-
-This repository contains the HTML projects and practice exercises I created while learning HTML. It showcases my understanding of HTML fundamentals through practical examples and mini projects.
-
-## 🚀 Features & Topics Covered
-- ✅ HTML Document Structure
-- ✅ Headings & Paragraphs
-- ✅ Text Formatting
-- ✅ Comments
-- ✅ Quotations
-- ✅ Hyperlinks
-- ✅ Images
-- ✅ Audio & Video
-- ✅ Tables
-- ✅ Timetable
-- ✅ Lists (Ordered, Unordered & Description)
-- ✅ Forms
-- ✅ Registration Form
-- ✅ Contact Form
-- ✅ Feedback Form
-- ✅ Semantic HTML
-- ✅ Iframes
-- ✅ HTML Entities
-- ✅ Attributes
-- ✅ File Paths
-- ✅ Basic Layouts
-
-## 📂 Projects Included
-- 📄 Registration Form
-- 📄 Contact Form
-- 📄 Feedback Form
-- 📄 Timetable
-- 📄 Tables Practice
-- 📄 Lists Practice
-- 📄 Hyperlinks & Images
-- 📄 Multimedia (Audio & Video)
-- 📄 Semantic HTML Examples
-- 📄 Other HTML Practice Programs
-
-## 🛠️ Technologies Used
-- HTML5
-
-## 🎯 Purpose
-The purpose of this repository is to:
-- Practice HTML concepts
-- Build beginner-friendly web pages
-- Improve web development skills
-- Track my HTML learning journey
-
-## 📌 Future Improvements
-I will continue updating this repository by adding:
-- Login Form
-- Resume Page
-- Portfolio Page
-- Restaurant Menu
-- Image Gallery
-- Landing Page
-- More HTML practice exercises
-
-## 📧 Author
-**Priyanka**
+A collection of beginner-friendly HTML5 projects demonstrating web development fundamentals.
 
 ---
 
-⭐ Thank you for visiting my repository!
-If you have any suggestions, feel free to share them.
+## 📖 About
+
+This repository contains HTML projects created while learning HTML5. It demonstrates semantic HTML, forms, multimedia, tables, and webpage layouts.
+
+---
+
+## ✨ Features
+
+- Semantic HTML5
+- Portfolio Webpage
+- Contact Form
+- Registration Form
+- Feedback Form
+- Lists
+- Tables
+- Hyperlinks
+- Images
+- Audio & Video
+
+---
+
+## 📂 Project Structure
+
+```
+HTML-Projects
+│── README.md
+│── index.html
+│── portfolio.html
+│── contact-form.html
+│── registration-form.html
+└── feedback-form.html
+
+```
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## 🚀 How to Run
+
+1. Download or clone the repository.
+2. Open any HTML file in your browser.
+
+---
+
+## 📁 Projects Included
+
+### 🏠 Home Page
+Basic HTML webpage using semantic elements.
+
+### 👩 Portfolio Page
+Simple personal portfolio.
+
+### 📞 Contact Form
+HTML contact form.
+
+### 📝 Registration Form
+User registration form.
+
+### 💬 Feedback Form
+Feedback collection form.
+
+---
+
+## 🎯 Future Improvements
+
+- Add CSS
+- Make Responsive
+- Add JavaScript
+- Improve UI
+
+---
+
+## 👩‍💻 Author
+
+**Priyanka**
+
+GitHub: https://github.com/its-priyanka27
+
+⭐ Thank you for visiting this repository.
