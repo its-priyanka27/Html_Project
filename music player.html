@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Music Player<h1>
+            <form>
+                <label for="song">Choose a song:</label>
+                <input type="file" id="song" name="song" accept="audio/*">
+                <br><br>
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" name="volume" min="0" max="100" value="10">
+                <br><br>
+                <label for="brightness">Brightness</label>
+                <input type="range" id="brightness" name="brightness" min="0" max="100" value="30">
+                <br><br>
+                <label for="search">Search</label>
+                <input type="search" id="search" placeholder="Search songs...">
+                <br><br>
+                <button type="submit">Save settings</button>
+            </form>
+</body>
+
+</html>
