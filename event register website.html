@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event Registration</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>College Event Registration</h1>
+        <h2>ABC College of Engineering</h2>
+        <p>Welcome to Tech Fest 2026!</p>
+    </header>
+
+    <hr>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Events</a> |
+        <a href="#">Schedule</a> |
+        <a href="#">Register</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- About Event -->
+    <section>
+        <h2>About the Event</h2>
+
+        <p><strong>Date:</strong> 28/07/2026</p>
+        <p><strong>Venue:</strong> ABC College of Engineering</p>
+        <p>
+            We are conducting this event to encourage students to
+            showcase their technical skills, creativity, teamwork,
+            and problem-solving abilities.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Event Highlights -->
+    <section>
+
+        <h2>Event Highlights</h2>
+
+        <ul>
+            <li>Coding Competition</li>
+            <li>Hackathon</li>
+            <li>Robotics</li>
+            <li>Paper Presentation</li>
+            <li>Quiz Competition</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Event Schedule -->
+    <section>
+
+        <h2>Event Schedule</h2>
+
+        <table border="1" cellpadding="8">
+
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Venue</th>
+            </tr>
+
+            <tr>
+                <td>10:30 AM</td>
+                <td>Coding Competition</td>
+                <td>Lab 1</td>
+            </tr>
+
+            <tr>
+                <td>11:00 AM</td>
+                <td>Hackathon</td>
+                <td>Seminar Hall</td>
+            </tr>
+
+            <tr>
+                <td>11:30 AM</td>
+                <td>Robotics</td>
+                <td>Lab 2</td>
+            </tr>
+
+            <tr>
+                <td>12:00 PM</td>
+                <td>Paper Presentation</td>
+                <td>Conference Hall</td>
+            </tr>
+
+            <tr>
+                <td>12:30 PM</td>
+                <td>Quiz Competition</td>
+                <td>Room 105</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <section>
+
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone">
+
+            <br><br>
+
+            <label for="branch">Branch:</label>
+
+            <select id="branch">
+
+                <option selected>Select Branch</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>ISE</option>
+                <option>ME</option>
+
+            </select>
+
+            <br><br>
+
+            <label>Year:</label>
+
+            <input type="radio" name="year"> 1st
+            <input type="radio" name="year"> 2nd
+            <input type="radio" name="year"> 3rd
+            <input type="radio" name="year"> 4th
+
+            <br><br>
+
+            <label>Events Interested In:</label>
+
+            <br>
+
+            <input type="checkbox"> Coding Competition
+
+            <br>
+
+            <input type="checkbox"> Hackathon
+
+            <br>
+
+            <input type="checkbox"> Robotics
+
+            <br>
+
+            <input type="checkbox"> Paper Presentation
+
+            <br>
+
+            <input type="checkbox"> Quiz Competition
+
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+
+            <br><br>
+
+            <label for="student-id">Upload Student ID:</label>
+            <input type="file" id="student-id">
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Event Poster -->
+    <section>
+
+        <h2>Event Poster</h2>
+
+        <img src="images/poster.jpg"
+             alt="Tech Fest Poster"
+             width="400">
+
+    </section>
+
+    <hr>
+
+    <!-- Background Music -->
+    <section>
+
+        <h2>Background Music</h2>
+
+        <audio controls>
+            <source src="audio/sample-audio.mp3" type="audio/mpeg">
+        </audio>
+
+    </section>
+
+    <hr>
+
+    <!-- Promotional Video -->
+    <section>
+
+        <h2>Promotional Video</h2>
+
+        <video width="500" controls>
+            <source src="video/sample-video.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <hr>
+
+    <!-- Google Map -->
+    <section>
+
+        <h2>College Location</h2>
+
+        <iframe
+            src="YOUR_GOOGLE_MAP_EMBED_LINK"
+            width="600"
+            height="350">
+        </iframe>
+
+    </section>
+
+    <hr>
+
+    <!-- Registration Progress -->
+    <section>
+
+        <h2>Registration Progress</h2>
+
+        <progress value="60" max="100"></progress>
+
+        <br><br>
+
+        <label>Available Seats</label>
+
+        <br>
+
+        <meter value="75" min="0" max="100"></meter>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>&copy; 2026 Tech Fest</p>
+
+        <p>ABC College of Engineering</p>
+
+        <p>Email: techfest@abc.edu</p>
+
+        <p>Phone: +91 1234567891</p>
+
+    </footer>
+
+</body>
+
+</html>
